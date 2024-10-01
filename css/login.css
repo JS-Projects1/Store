@@ -1,0 +1,45 @@
+body{
+    background-image: url('../images/bigstock-Cup-Of-Coffee-And-Sack-Of-Roas-470531457-1368x636.jpg');
+    background-repeat: no-repeat;
+    position: relative;
+    font-size: 18px;
+}
+body::before{
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.253);
+    z-index: 1;
+}
+
+.login .container,.login .row{
+    height: 100vh !important;
+}
+
+form{
+    /* border: 3px solid rgb(187, 140, 78); */
+    border: 3px solid #B68734;
+    padding: 30px 50px;
+    border-radius: 15px;
+    background-color: rgba(222, 184, 135, 0.178);
+    backdrop-filter: blur(1px);
+    position: relative;
+    z-index: 2;
+}
+input{
+    border: 2px solid #B68734 !important;
+    border-radius: 15px !important;
+    padding: 20px 15px !important;
+}
+
+button{
+    background-color: #B68734 !important;
+    outline: none;
+}
+button:hover{
+    background-color: #b68634b6 !important;
+
+}

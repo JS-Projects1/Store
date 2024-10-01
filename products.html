@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Store App</title>
+</head>
+
+<body>
+    <!-- Start Nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top h5 ">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt="photo"> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarText">
+
+                <div class="w-100  ml-auto" id="nav-1" style="display: none;">
+                    <ul class="navbar-nav font-weight-bold ">
+                        <li class="nav-item active">
+                            <a class="nav-link text-light" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-light" href="products.html">Products</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav ml-auto font-weight-bold">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#" id="userName">marwa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#" id="logout">Log out</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <ul class="navbar-nav ml-auto font-weight-bold" id="nav-2">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="register.html">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Nav -->
+
+    <!-- Start Hero -->
+    <section class="hero">
+        <img src="images/header-bg.jpg" alt="photo">
+    </section>
+    <!-- End Hero -->
+
+
+    <section class="products pt-5 my-5 text-white-50">
+        <div class="container text-center">
+            <small>Live Coffee is life</small>
+            <h2 class="font-weight-bold text-light my-2">Best Coffee Seller</h2>
+            <p class="w-50 m-auto">Far far away, behind the word mountains, far from the countries Vokalia and
+                Consonantia, there live the blind texts.
+            </p>
+            <div class="row d-flex justify-content-around mt-5">
+
+                <!-- <div class="col-7 col-md-5 col-lg-3 mb-5">
+                    <div class="product">
+                        <div class="img-product">
+                            <img src="images/menu-1.jpg" alt="">
+                        </div>
+                        <div class="info-product">
+                            <h3 class="my-3 text-light">Coffee Capuccino</h3>
+                            <p class="mb-0">A small river named Duden flows by their place and supplies</p>
+                            <small class="d-block my-3">$5.90</small>
+                            <button onclick="AddToCart">Add To Cart</button>
+                            <button onclick="Delete" class="mx-2">Delete</button>
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+    <section class="totalPrice">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h2 class="font-weight-bold text-black-50 my-2 pb-5">Total price of selected products: <span class="text-success">0</span></h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start footer -->
+    <footer class="py-5 h-100">
+        <div class="container h-100 ">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class=" col-6 col-md-6 mb-2 mb-md-0 ">
+                    <h4 class="text-white ">About Us</h4>
+                    <p class="text-white-50 pr-lg-5 mr-lg-5 pr-0 mr-0">Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                </div>
+
+                <div class="col-6 col-md-5  d-flex flex-column align-items-center">
+                    <h4 class="text-white">Follow Us</h4>
+                    <p class="text-white-50">Let us be social</p>
+                    <div class="icons text-white-50 ">
+                        <i class="fa fa-facebook pr-3"></i>
+                        <i class="fa fa-instagram px-3"></i>
+                        <i class="fa fa-telegram pl-3"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+    <script src="js/products.js"></script>
+</body>
+
+</html>
